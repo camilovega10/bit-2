@@ -1,0 +1,87 @@
+  /* Que toda la página use 100% de altura */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+footer {
+  background-color: rgba(5, 5, 207, 0.651);
+  color: white;
+  padding: 10px;
+}
+
+header {
+  background-color: rgba(5, 5, 207, 0.651);
+  color: white;
+}
+
+aside {
+  background-color: rgba(5, 5, 207, 0.651);
+  color: white;
+}
+
+.texto-aside {
+  font-size: 20px;
+}
+
+.color-url {
+  color: white;
+}
+
+.color-cartas {
+  background-color: rgba(5, 5, 207, 0.651);
+}
+
+
+.main-content {
+  flex: 1; /* Para que el contenedor central (aside + main) ocupe el espacio restante */
+}
+  
+.carousel-control-prev,
+.carousel-control-next {
+  pointer-events: none; /* Desactiva interacción para el área del botón */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  pointer-events: auto;  /* Activa solo en el ícono */
+  background-color: black;
+}
+
+.img-ajustable {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-gradient {
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(to right, #594963, #beadcc, white); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.icono {
+    text-decoration: none;
+    font-size: 30px;
+    color: #444;
+    transition: color 0.3s;
+}
+
+.icono:hover {
+    color: #0077ff;
+}
+
+.facebook:hover { color: #3b5998; }
+.twitter:hover { color: rgb(121, 119, 119); }
+.instagram:hover { color: #e1306c; }
+.linkedin:hover { color: #0077b5; }
+.youtube:hover {color: red;}
