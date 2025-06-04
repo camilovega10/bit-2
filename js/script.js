@@ -22,7 +22,7 @@ function dividirEnCarruseles(array, numCarruseles) {
   return resultado;
 }
 
-// Crear el HTML de un carrusel con autoplay y controles
+// HTML y controles
 function crearCarrusel(id, data) {
   const slides = dividirEnGrupos(data, 4); // 4 tarjetas por slide
 
